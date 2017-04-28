@@ -1,0 +1,1053 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6100 MB
+    Driver:   21.21.13.7653
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\UnityBuilds\OVAL_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\UnityBuilds\OVAL_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\UnityBuilds\OVAL_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\UnityBuilds\OVAL_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\UnityBuilds\OVAL_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading E:\UnityBuilds\OVAL_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\UnityEngine.VR.dll (this message is harmless)
+Loading E:\UnityBuilds\OVAL_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\AssimpNet.dll (this message is harmless)
+Loading E:\UnityBuilds\OVAL_Data\Managed\AssimpNet.dll into Unity Child Domain
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\DataLib.dll (this message is harmless)
+Loading E:\UnityBuilds\OVAL_Data\Managed\DataLib.dll into Unity Child Domain
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\protobuf-net.dll (this message is harmless)
+Loading E:\UnityBuilds\OVAL_Data\Managed\protobuf-net.dll into Unity Child Domain
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\Google.ProtocolBuffers.dll (this message is harmless)
+Loading E:\UnityBuilds\OVAL_Data\Managed\Google.ProtocolBuffers.dll into Unity Child Domain
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
+Loading E:\UnityBuilds\OVAL_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading E:\UnityBuilds\OVAL_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\TDx.TDxInput.dll (this message is harmless)
+Loading E:\UnityBuilds\OVAL_Data\Managed\TDx.TDxInput.dll into Unity Child Domain
+- Completed reload, in  0.026 seconds
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\System.dll (this message is harmless)
+OnLevelWasLoaded was found on GvrViewer
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 382)
+
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Overlay is using an unsupported compressed pixel format.UnloadTime: 1.366296 ms
+Ensure that the layers that you have allotted have UI Elements in them!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2754 -> priority: 1 
+Ensure that the layers that you have allotted have UI Elements in them!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Non platform assembly: data-000000001A3911B0 (this message is harmless)
+Non platform assembly: data-000000001A3911B0 (this message is harmless)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.297062 ms
+SwitchToProtocol: Udp PhotonNetwork.connected: False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ImportManager/Start: initialized folderpath from fileBrowser
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 8370.
+Total: 8.002412 ms (FindLiveObjects: 0.636792 ms CreateObjectMapping: 0.393945 ms MarkObjects: 6.943123 ms  DeleteObjects: 0.027909 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Operation failed: OperationResponse 225: ReturnCode: 32760 (No match found). Parameters: {}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+PUNVoice: connecting to region us
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PUNVoice: MicWrapper does not support suggested frequency 24000 (min: 48000, max: 48000). Setting to 48000
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PUNVoice: [PV] Local voice #1 audio source frequency 48000 and encoder sampling rate 24000 do not match. Resampling will occur before encoding.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapVRTemporalWarping.updateTemporalWarping (Vector3 currLocalPosition, Quaternion currLocalRotation) [0x00000] in <filename unknown>:0 
+  at Leap.Unity.LeapVRTemporalWarping.LateUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Ensure that the layers that you have allotted have UI Elements in them!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+PUNVoice: Got a unexpected Disconnect in LoadBalancingClient State: Disconnected. 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
