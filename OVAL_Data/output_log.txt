@@ -35,7 +35,7 @@ Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\Photon3Unity3D.dll (this mes
 Loading E:\UnityBuilds\OVAL_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
 Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\TDx.TDxInput.dll (this message is harmless)
 Loading E:\UnityBuilds\OVAL_Data\Managed\TDx.TDxInput.dll into Unity Child Domain
-- Completed reload, in  0.026 seconds
+- Completed reload, in  0.276 seconds
 Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: E:\UnityBuilds\OVAL_Data\Managed\System.dll (this message is harmless)
 OnLevelWasLoaded was found on GvrViewer
@@ -48,21 +48,21 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Overlay is using an unsupported compressed pixel format.UnloadTime: 1.366296 ms
+Overlay is using an unsupported compressed pixel format.UnloadTime: 1.170286 ms
 Ensure that the layers that you have allotted have UI Elements in them!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2754 -> priority: 1 
+  Thread -> id: f54 -> priority: 1 
 Ensure that the layers that you have allotted have UI Elements in them!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Non platform assembly: data-000000001A3911B0 (this message is harmless)
-Non platform assembly: data-000000001A3911B0 (this message is harmless)
+Non platform assembly: data-000000001CB17030 (this message is harmless)
+Non platform assembly: data-000000001CB1D080 (this message is harmless)
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.297062 ms
+UnloadTime: 0.343899 ms
 SwitchToProtocol: Udp PhotonNetwork.connected: False
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -73,6 +73,7 @@ ImportManager/Start: initialized folderpath from fileBrowser
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -80,10 +81,11 @@ NullReferenceException
 
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 8370.
-Total: 8.002412 ms (FindLiveObjects: 0.636792 ms CreateObjectMapping: 0.393945 ms MarkObjects: 6.943123 ms  DeleteObjects: 0.027909 ms)
+Total: 8.792866 ms (FindLiveObjects: 0.439819 ms CreateObjectMapping: 0.270757 ms MarkObjects: 7.999522 ms  DeleteObjects: 0.081804 ms)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -91,6 +93,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -98,6 +101,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -105,6 +109,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -112,6 +117,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -119,6 +125,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -126,6 +133,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -133,6 +141,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -140,6 +149,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -147,6 +157,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -154,6 +165,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -161,6 +173,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -168,6 +181,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -175,6 +189,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -182,6 +197,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -189,6 +205,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -196,6 +213,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -203,6 +221,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -210,6 +229,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -217,6 +237,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -224,6 +245,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -231,6 +253,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -238,6 +261,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -245,6 +269,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -252,6 +277,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -259,6 +285,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -266,6 +293,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -273,6 +301,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -280,6 +309,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -287,6 +317,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -294,6 +325,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -301,6 +333,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -308,6 +341,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -315,6 +349,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -322,6 +357,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -329,6 +365,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -336,6 +373,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -343,6 +381,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -350,6 +389,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -357,6 +397,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -364,6 +405,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -371,6 +413,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -378,6 +421,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -385,6 +429,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -392,6 +437,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -399,6 +445,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -406,6 +453,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -413,6 +461,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -420,6 +469,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -427,6 +477,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -434,6 +485,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -441,6 +493,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -448,6 +501,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -455,6 +509,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -462,6 +517,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -469,6 +525,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -476,6 +533,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -483,6 +541,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -490,6 +549,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -497,6 +557,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -504,6 +565,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -511,6 +573,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -518,6 +581,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -525,6 +589,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -532,6 +597,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -539,6 +605,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -546,6 +613,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -553,6 +621,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -560,6 +629,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -567,83 +637,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
-  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
-  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
-  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
-  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
-  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
-  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
-  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
-  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
-  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
-  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
-  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -655,6 +649,7 @@ Operation failed: OperationResponse 225: ReturnCode: 32760 (No match found). Par
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -662,6 +657,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -669,6 +665,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -676,6 +673,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -683,6 +681,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -690,6 +689,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -697,6 +697,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -704,6 +705,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -711,6 +713,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -718,6 +721,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -725,6 +729,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -732,6 +737,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -739,6 +745,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -746,6 +753,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -753,6 +761,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -760,6 +769,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -767,6 +777,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -774,6 +785,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -781,6 +793,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -788,6 +801,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -795,6 +809,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -802,6 +817,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -809,6 +825,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -816,6 +833,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -823,6 +841,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -830,6 +849,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -837,6 +857,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -844,6 +865,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -851,6 +873,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -858,6 +881,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -865,6 +889,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -872,6 +897,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -879,6 +905,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -886,6 +913,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -893,6 +921,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -900,6 +929,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -907,6 +937,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -914,6 +945,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -921,6 +953,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -928,6 +961,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -935,6 +969,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -942,6 +977,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -949,6 +985,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -956,6 +993,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -963,6 +1001,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -970,6 +1009,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -977,6 +1017,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -984,6 +1025,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -991,6 +1033,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -998,6 +1041,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -1005,6 +1049,7 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -1012,6 +1057,47 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
+  at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_gameObject ()
+  at Leap.Unity.InputModule.LeapInputModule.UpdatePointer (Int32 whichPointer, UnityEngine.EventSystems.PointerEventData pointData) [0x00000] in <filename unknown>:0 
   at Leap.Unity.InputModule.LeapInputModule.Process () [0x00000] in <filename unknown>:0 
   at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <filename unknown>:0 
  
@@ -1039,15 +1125,31 @@ Ensure that the layers that you have allotted have UI Elements in them!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Look rotation viewing vector is zero
+Ensure that the layers that you have allotted have UI Elements in them!
  
-(Filename:  Line: 92)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Look rotation viewing vector is zero
+Ensure that the layers that you have allotted have UI Elements in them!
  
-(Filename:  Line: 92)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-PUNVoice: Got a unexpected Disconnect in LoadBalancingClient State: Disconnected. 
+Ensure that the layers that you have allotted have UI Elements in them!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.213915 ms
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 8115.
+Total: 8.207723 ms (FindLiveObjects: 0.667268 ms CreateObjectMapping: 0.355127 ms MarkObjects: 7.159341 ms  DeleteObjects: 0.025022 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.771790 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 8115.
+Total: 8.392826 ms (FindLiveObjects: 0.459067 ms CreateObjectMapping: 0.272361 ms MarkObjects: 7.650489 ms  DeleteObjects: 0.009944 ms)
+
+Ensure that the layers that you have allotted have UI Elements in them!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
