@@ -6,8 +6,6 @@ This version of OVAL requires the use of an Oculus Rift CV1, a Leap Motion Hand 
 
 ### Known Bugs
 1. Menu text may be garbled after opening the file browser within OVAL. To fix, exit back to the main menu and rejoin OVAL.
-2. Users may be disconnected from voice chat after importing especially large or small models
-3. Professors leaving and rejoining the game may lose the ability to use certain features
 
 # OVAL Quickstart Guide
 To get started with OVAL, check out [this video tutorial](https://www.youtube.com/watch?v=K0S71ocsaM0)
