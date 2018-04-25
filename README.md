@@ -28,24 +28,24 @@ OVAL uses a LEAP Motion controller attached to the front of an Oculus Rift in or
 This green/blue circle is your cursor. Think of it as an extension of your hand. If you want to click on a button, make sure that the circle appears on the button you are attempting to click. If you aren’t seeing the circle, lower your hands off screen and bring them back up. They will return with different color accents. This will indicate that your virtual hands have been refreshed. See if the circle is appearing now.
 
 
-![alt text](full link “Cursor Circle”)
+![Cursor Circle](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/8556F56A-CBE1-4764-B679-8314E668280C.png?raw=true)
 
 ### Pinch to click
 In OVAL, a standard mouse click is replaced with a pinch of your finger. As hands vary, so does the efficacy of this function. For most, the best method is to open your hand and keep all four fingers together and extended. Then make a pinching motion using four fingers as the top of the pinch motion and your thumb as the bottom. If you aren’t able to click, lower your hands off screen and bring them back up. They should return with different color accents. This will indicate that your virtual hands have been refreshed. See if are able to click now.
 
 Clicking requires opening your hand like this:
-![alt text](full link “Clicking Hand Example - open”)
+![Clicking Hand Example - Open](https://github.com/WalkupAndAway/OVAL-Application/Readme_images/ “Clicking Hand Example - open”)
 
 Then closing your hand with all four fingers remaining parallel and your index and middle finger touching your thumb like this:
 
-![alt text](full link “Clicking Hand Example - closed”)
+![Clicking Hand Example - Closed](/Readme_images/ “Clicking Hand Example - closed”)
 
 Remember to Alligator Click!
 
 ## Loading Models
 To load a model into OVAL, click on start from the main screen. After OVAL loads, there will be a menu on the left. Click “Model” then “Import.” This will bring up an explorer window with the folder that is defined in the “Settings” before the OVAL session was launched. To select a model, double-click or click once and select “Okay.”
 
-![alt text](full link “Screengrab of Model Import Menu”)
+![Screengrab of Model Import Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/09941780-D4DE-4F14-BC2E-D9AF5ECA8BEC.png?raw=true)
 
 ### Edit Function
 The “Edit” Function under the “Model”
@@ -53,17 +53,21 @@ The “Edit” Function under the “Model”
 #### Scale
 The more complex the model, the more this function will lag.
 
-![alt text](full link “Scale Menu”)
+![Scale Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/08FDFC7B-4069-41EA-88C3-AA7CC2793213.png?raw=true)
 
 #### Axis Movement
 The more complex the model, the more this function will lag.
 
-![alt text](full link “Axis Control Menu”)
+![Axis Control Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/08FDFC7B-4069-41EA-88C3-AA7CC2793213.png?raw=true)
 
 ### Close Up Function
 There is a Close Up Function in the Model Menu. This function brings a small version of the loaded model directly in front of you. This model has a sphere around it and will respond directly to touch. 
 
+![Close Up Function](get image)
+
 ### Tour Function
+
+![Tour Function](
 
 ### Where is my file?
 
@@ -82,7 +86,7 @@ Include external link to their guide, as well as a brief summary of the setup an
 
 ## Annotating in OVAL
 
-![alt text](full link “Annotation tool menu”)
+![Annotation tool menu](https://github.com/WalkupAndAway/OVAL-Application/Readme_images/ “Annotation tool menu”)
 
 ### Handheld
 
@@ -90,7 +94,7 @@ Include external link to their guide, as well as a brief summary of the setup an
 
 ## Screenshots
 
-![alt text](full link “Screenshot tool”)
+![Screenshot tool](https://github.com/WalkupAndAway/OVAL-Application/Readme_images/ “Screenshot tool”)
 
 ## Video Capture
 
