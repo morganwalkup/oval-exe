@@ -10,15 +10,17 @@ OVAL requires the use of an Oculus Rift CV1, a Leap Motion Hand Tracker, and a 3
 3. Video capture freezes OVAL for 3-5 seconds when first selected. After this, OVAL performs normally.
 
 # OVAL Quickstart Guide
-To get started with OVAL, check out [this video tutorial](https://www.youtube.com/watch?v=K0S71ocsaM0)
+For a video introduction to OVAL, check out [this tutorial](https://www.youtube.com/watch?v=K0S71ocsaM0)
 
 ## Compatible File Types
 OVAL can be used to view .obj, .stl, .dae, and .fbx files.
 
 # Using OVAL
-Welcome to OVAL! The following guide will assist you with any functionality that OVAL currently has. If you find something that isn’t covered or that is confusing in this guide, feel free to leave a revision suggestion in the comments and it will be considered. 
+Welcome to OVAL! The following guide will assist you with any functionality that OVAL currently has. If you find something that isn’t covered or that is confusing in this guide, please leave a revision suggestion in the comments. 
 
-## Maneuvering through OVAL menus
+## LEAP Motion Controls
+
+### Maneuvering through OVAL menus
 Using OVAL may feel unnatural for the first few minutes, but the hand gestures quickly become intuitive. This section of the guide will cover all gestures needed to utilize OVAL’s many functions. 
 
 ### Use your hands
@@ -42,6 +44,16 @@ Then closing your hand with all four fingers remaining parallel and your index a
 
 Remember to Alligator Click!
 
+## Oculus Touch Controls
+
+### Maneuvering through OVAL menus
+Use the joysticks on the Oculus Touch controllers to navigate through the menus. Use the (?) button to select.
+
+### Look for the circle
+This green/blue circle is your cursor. Think of it as an extension of your hand. If you want to click on a button, make sure that the circle appears on the button you are attempting to click. If you aren’t seeing the circle, lower your hands off screen and bring them back up. They will return with different color accents. This will indicate that your virtual hands have been refreshed. See if the circle is appearing now.
+
+![Cursor Circle](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/8556F56A-CBE1-4764-B679-8314E668280C.png?raw=true)
+
 ## Loading Models
 To load a model into OVAL, click on start from the main screen. After OVAL loads, there will be a menu on the left. Click “Model” then “Import.” This will bring up an explorer window with the folder that is defined in the “Settings” before the OVAL session was launched. To select a model, double-click or click once and select “Okay.”
 
@@ -50,15 +62,10 @@ To load a model into OVAL, click on start from the main screen. After OVAL loads
 ### Edit Function
 The “Edit” Function under the “Model”
 
-#### Scale
-The more complex the model, the more this function will lag.
+#### Scale and Axis Movement
+The more complex the model, the more this function will lag. Use the "Scale" slider bar to increase or decrease the size of the model. All scaling is uniform. Use the other three slider bars to rotate the object on the labelled axis.
 
 ![Scale Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/08FDFC7B-4069-41EA-88C3-AA7CC2793213.png?raw=true)
-
-#### Axis Movement
-The more complex the model, the more this function will lag.
-
-![Axis Control Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/08FDFC7B-4069-41EA-88C3-AA7CC2793213.png?raw=true)
 
 ### Close Up Function
 There is a Close Up Function in the Model Menu. This function brings a small version of the loaded model directly in front of you. This model has a sphere around it and will respond directly to touch. 
@@ -66,22 +73,22 @@ There is a Close Up Function in the Model Menu. This function brings a small ver
 ![Close Up Function](get image)
 
 ### Tour Function
+The "Tour" function will take your ship on a preset movement around the object. 
 
 ![Tour Function](
 
 ### Where is my file?
+If you can't find your model (or its parent folder), check in the settings on the main menu and ensure that OVAL is pointed at the right directory.
 
 ### I loaded my file, but I can’t find it
 By default, models loaded into OVAL occupy a 1 meter sphere. If you uncheck the resize button, the file can be loaded in its original size. Because of this, sometimes a file can be too small or too far away when it is initially loaded. The first step in troubleshooting this situation is to click the close-button to ensure that the model was properly loaded. A small version of the model should appear very close to your perspective. Click “Close-Up” again to remove this. After verifying that the model is correctly loading, reload the model with the “Resize” button unchecked. 
-
-## Movement in OVAL
 
 ### Head Movement
 
 ### CADMouse Movement
 External link to CADMouse description
 
-### 3DConnexion Setup
+# 3DConnexion Setup
 Include external link to their guide, as well as a brief summary of the setup and use. 
 
 ## Annotating in OVAL
