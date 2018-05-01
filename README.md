@@ -53,17 +53,17 @@ OVAL uses a LEAP Motion controller attached to the front of an Oculus Rift in or
 ### Look for the circle
 This green/blue circle is your cursor. Think of it as an extension of your hand. If you want to click on a button, make sure that the circle appears on the button you are attempting to click. If you aren’t seeing the circle, lower your hands off screen and bring them back up. They will return with different color accents. This will indicate that your virtual hands have been refreshed. See if the circle is appearing now.
 
-![Cursor Circle](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/8556F56A-CBE1-4764-B679-8314E668280C.png?raw=true)
+![Cursor Circle](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Cursor.jpg?raw=true)
 
 ### Pinch to click
 In OVAL, a standard mouse click is replaced with a pinch of your finger. As hands vary, so does the efficacy of this function. For most, the best method is to open your hand and keep all four fingers together and extended. Then make a pinching motion using four fingers as the top of the pinch motion and your thumb as the bottom. If you aren’t able to click, lower your hands off screen and bring them back up. They should return with different color accents. This will indicate that your virtual hands have been refreshed. See if are able to click now.
 
 Clicking requires opening your hand like this:
-![Clicking Hand Example - Open](https://github.com/WalkupAndAway/OVAL-Application/Readme_images/ “Clicking Hand Example - open”)
+![Clicking Hand Example - Open](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/handopen.jpg?raw=true)
 
 Then closing your hand with all four fingers remaining parallel and your index and middle finger touching your thumb like this:
 
-![Clicking Hand Example - Closed](/Readme_images/ “Clicking Hand Example - closed”)
+![Clicking Hand Example - Closed](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/handclosed.jpg?raw=true)
 
 Remember to Alligator Click!
 
