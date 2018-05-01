@@ -2,21 +2,45 @@
 The Oklahoma Virtual Academic Laboratory (OVAL) is a VR-Classroom application by University of Oklahoma Libraries encouraging collaboration between academics, professors, and students. Up to twenty users can inhabit the same VR space, import any 3D model on the fly, and analyze 3D models with built-in tools.
 
 ### Hardware Dependencies
-OVAL requires the use of an Oculus Rift CV1, a Leap Motion Hand Tracker, and a 3Dconnexion SpaceNavigator 3D Mouse.
+OVAL requires the use of an Oculus Rift CV1. A Leap Motion Hand Tracker with a 3Dconnexion SpaceNavigator or Oculus Touch Controllers are required to control the software.
 
 ### Known Bugs
 1. Menu text may be garbled after opening the file browser within OVAL. To fix, exit back to the main menu and rejoin OVAL.
 2. Video capture action does not record microphone audio of the user.
 3. Video capture freezes OVAL for 3-5 seconds when first selected. After this, OVAL performs normally.
 
+# OVAL Setup
+
+## Version Selection
+
+## Download
+
+## Install
+
+## First-Time Configuration
+
+![Main Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Start%20Menu.jpg?raw=true)
+
+### Settings Menu
+
+![Main Menu - Settings](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Settings%20Menu.jpg?raw=true)
+
+#### Room Setup
+
+![Room Setup Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Room%20Selection.jpg?raw=true)
+
+#### Model Folder Setup
+
+![Model Folder Setup Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Model%20Folder%20Menu.jpg?raw=true)
+
 # OVAL Quickstart Guide
 For a video introduction to OVAL, check out [this tutorial](https://www.youtube.com/watch?v=K0S71ocsaM0)
 
-## Compatible File Types
-OVAL can be used to view .obj, .stl, .dae, and .fbx files.
-
 # Using OVAL
 Welcome to OVAL! The following guide will assist you with any functionality that OVAL currently has. If you find something that isn’t covered or that is confusing in this guide, please leave a revision suggestion in the comments. 
+
+## Compatible File Types
+OVAL can be used to view .obj, .stl, .dae, and .fbx files.
 
 ## LEAP Motion Controls
 
@@ -28,7 +52,6 @@ OVAL uses a LEAP Motion controller attached to the front of an Oculus Rift in or
 
 ### Look for the circle
 This green/blue circle is your cursor. Think of it as an extension of your hand. If you want to click on a button, make sure that the circle appears on the button you are attempting to click. If you aren’t seeing the circle, lower your hands off screen and bring them back up. They will return with different color accents. This will indicate that your virtual hands have been refreshed. See if the circle is appearing now.
-
 
 ![Cursor Circle](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/8556F56A-CBE1-4764-B679-8314E668280C.png?raw=true)
 
@@ -57,7 +80,13 @@ This green/blue circle is your cursor. Think of it as an extension of your hand.
 ## Loading Models
 To load a model into OVAL, click on start from the main screen. After OVAL loads, there will be a menu on the left. Click “Model” then “Import.” This will bring up an explorer window with the folder that is defined in the “Settings” before the OVAL session was launched. To select a model, double-click or click once and select “Okay.”
 
-![Screengrab of Model Import Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/09941780-D4DE-4F14-BC2E-D9AF5ECA8BEC.png?raw=true)
+![Model Import Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Model%20Import%20Menu.jpg?raw=true)
+
+### Where is my file?
+If you can't find your model (or its parent folder), check in the settings on the main menu and ensure that OVAL is pointed at the right directory.
+
+### I loaded my file, but I can’t find it
+By default, models loaded into OVAL occupy a 1 meter sphere. If you uncheck the resize button, the file can be loaded in its original size. Because of this, sometimes a file can be too small or too far away when it is initially loaded. The first step in troubleshooting this situation is to click the close-button to ensure that the model was properly loaded. A small version of the model should appear very close to your perspective. Click “Close-Up” again to remove this. After verifying that the model is correctly loading, reload the model with the “Resize” button unchecked. 
 
 ### Edit Function
 The “Edit” Function under the “Model”
@@ -65,23 +94,55 @@ The “Edit” Function under the “Model”
 #### Scale and Axis Movement
 The more complex the model, the more this function will lag. Use the "Scale" slider bar to increase or decrease the size of the model. All scaling is uniform. Use the other three slider bars to rotate the object on the labelled axis.
 
-![Scale Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/08FDFC7B-4069-41EA-88C3-AA7CC2793213.png?raw=true)
+![Scale Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Scale%20Menu.jpg?raw=true)
 
 ### Close Up Function
 There is a Close Up Function in the Model Menu. This function brings a small version of the loaded model directly in front of you. This model has a sphere around it and will respond directly to touch. 
 
-![Close Up Function](get image)
+![Close Up Function](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Close%20Up.jpg?raw=true)
+
+## Actions Menu
+
+![Actions Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Actions%20Menu.jpg?raw=true)
 
 ### Tour Function
 The "Tour" function will take your ship on a preset movement around the object. 
 
 ![Tour Function](
 
-### Where is my file?
-If you can't find your model (or its parent folder), check in the settings on the main menu and ensure that OVAL is pointed at the right directory.
+### Regroup Function
 
-### I loaded my file, but I can’t find it
-By default, models loaded into OVAL occupy a 1 meter sphere. If you uncheck the resize button, the file can be loaded in its original size. Because of this, sometimes a file can be too small or too far away when it is initially loaded. The first step in troubleshooting this situation is to click the close-button to ensure that the model was properly loaded. A small version of the model should appear very close to your perspective. Click “Close-Up” again to remove this. After verifying that the model is correctly loading, reload the model with the “Resize” button unchecked. 
+![Regroup Button](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Regroup%20Menu.jpg?raw=true)
+
+### Indicate Function
+
+![Indicate Function](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Indicate%20Function%20with%20Close%20Up.jpg?raw=true)
+
+### Annotate Function
+
+#### Ink Level
+When the ink level is depleted, you will no longer be able to annotate. At this point you can click share to show your annotations then new to replenish your ink. If you do not wish to share you annotations, simply press new.
+
+![Ink Level](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Annotate%20Menu.jpg?raw=true)
+
+### Measure Function
+
+![Measure Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Measure%20Tool.jpg?raw=true)
+
+### Snapshot Function
+
+1. ![Snapshot Button](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Snapshot%20Menu.jpg?raw=true)
+2. ![Snapshot Countdown](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Snapshot%20Countdown.jpg?raw=true)
+
+## Settings Menu
+
+![Settings Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Ship%20Settings%20Menu.jpg?raw=true)
+
+### Skybox Settings
+
+### Lighting Settings
+
+![Lighting Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Lighting%20Settings.jpg?raw=true)
 
 ### Head Movement
 
