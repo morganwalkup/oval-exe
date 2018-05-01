@@ -6,30 +6,44 @@ OVAL requires the use of an Oculus Rift CV1. A Leap Motion Hand Tracker with a 3
 
 ### Known Bugs
 1. Menu text may be garbled after opening the file browser within OVAL. To fix, exit back to the main menu and rejoin OVAL.
-2. Video capture action does not record microphone audio of the user.
-3. Video capture freezes OVAL for 3-5 seconds when first selected. After this, OVAL performs normally.
+1. Video capture action does not record microphone audio of the user.
+1. Video capture freezes OVAL for 3-5 seconds when first selected. After this, OVAL performs normally.
 
 # OVAL Setup
 
 ## Version Selection
+There are two versions of OVAL available. The difference between the two is in the peripherals used to control each version. Download the [master branch](https://github.com/WalkupAndAway/OVAL-Application/archive/master.zip) if you are using Leap Motion controls. Download the [steam vr branch](https://github.com/WalkupAndAway/OVAL-Application/archive/steam-vr.zip) if you are using Oculus Touch Controllers.
 
 ## Download
+Select the download based on your control preference:
+* [Leap Motion Controls](https://github.com/WalkupAndAway/OVAL-Application/archive/master.zip)
+* [Oculus Touch Controllers](https://github.com/WalkupAndAway/OVAL-Application/archive/steam-vr.zip)
 
 ## Install
+1. Extract the files
+1. Run Oval.exe
+
+## SteamVR Install
+1. Install [Steam](https://store.steampowered.com/about/)
+1. Search for and Install SteamVR
+1. Follow these [Oculus Rift setup instructions](https://support.steampowered.com/kb_article.php?ref=3180-UPHK-0900)
+1. Complete SteamVR Room Setup (If you don't this, you will most likely show up and an incorrect height in OVAL).
 
 ## First-Time Configuration
-
+* Click on the settings menu
 ![Main Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Start%20Menu.jpg?raw=true)
 
 ### Settings Menu
-
+* First, go to the room setup.
 ![Main Menu - Settings](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Settings%20Menu.jpg?raw=true)
 
 #### Room Setup
+* On this screen the room is defined. For multiplayer functionality, all users will need to have the same room defined.
 
 ![Room Setup Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Room%20Selection.jpg?raw=true)
 
 #### Model Folder Setup
+* On this screen the root folder of the model import function is defined.
 
 ![Model Folder Setup Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Model%20Folder%20Menu.jpg?raw=true)
 
@@ -40,8 +54,10 @@ For a video introduction to OVAL, check out [this tutorial](https://www.youtube.
 OVAL can be used to view .obj, .stl, .dae, and .fbx files.
 
 # Control Options
+Depending on which branch was downloaded, you will either use your hands or Oculus Touch Controllers to control OVAL.
 
 ## Head Movement
+The movement of the field of view is tied to the movement of your head. If you want to look at something, just turn your head.
 
 ## Leap Motion and 3DConnexion Compact SpaceMouse Controls
 
@@ -77,7 +93,7 @@ Remember to Alligator Click!
 ## Oculus Touch Controls
 
 ### Maneuvering through OVAL menus
-Use the joysticks on the Oculus Touch controllers to navigate through the menus. Use the (?) button to select.
+Two lasers will come from your controllers and shoot out in front of you. Use these as cursors. The triggers on the front of the controllers will serve as your click.
 
 # Using OVAL
 
@@ -92,10 +108,7 @@ If you can't find your model (or its parent folder), check in the settings on th
 ### I loaded my file, but I can’t find it
 By default, models loaded into OVAL occupy a 1 meter sphere. If you uncheck the resize button, the file can be loaded in its original size. Because of this, sometimes a file can be too small or too far away when it is initially loaded. The first step in troubleshooting this situation is to click the close-button to ensure that the model was properly loaded. A small version of the model should appear very close to your perspective. Click “Close-Up” again to remove this. After verifying that the model is correctly loading, reload the model with the “Resize” button unchecked. 
 
-### Edit Function
-The “Edit” Function under the “Model”
-
-#### Scale and Axis Movement
+### Edit Function - Scale and Axis Movement
 The more complex the model, the more this function will lag. Use the "Scale" slider bar to increase or decrease the size of the model. All scaling is uniform. Use the other three slider bars to rotate the object on the labelled axis.
 
 ![Scale Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Scale%20Menu.jpg?raw=true)
@@ -113,25 +126,30 @@ There is a Close Up Function in the Model Menu. This function brings a small ver
 The "Tour" function will take your ship on a preset movement around the object. 
 
 ### Regroup Function
+The regroup function will pull participants back to the room owner.
 
 ![Regroup Button](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Regroup%20Menu.jpg?raw=true)
 
 ### Indicate Function
+The indicate function will cause a ping noise and a dot to alert other participants to whatever is pointed to.
 
 ![Indicate Function](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Indicate%20Function%20with%20Close%20Up.jpg?raw=true)
 
 ### Annotate Function
+By clicking and holding with the annotate tool selected, "ink" will be dispense out of the hand/controller that is clicking. 
 
 #### Ink Level
-When the ink level is depleted, you will no longer be able to annotate. At this point you can click share to show your annotations then new to replenish your ink. If you do not wish to share you annotations, simply press new.
+When the ink level is depleted, you will no longer be able to annotate. At this point you can click share to show your annotations and refill your ink. If you do not wish to share you annotations, simply press new.
 
 ![Ink Level](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Annotate%20Menu.jpg?raw=true)
 
 ### Measure Function
+The measure function will tell you the distance of a straight line. If this is cutting through an object, it will measure the straight line and not around the perimeter.
 
 ![Measure Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Measure%20Tool.jpg?raw=true)
 
 ### Snapshot Function
+As soon as the snapshot button is clicked, a countdown from 3 will appear. The field of view will be captured at the end of the countdown.
 
 1. ![Snapshot Button](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Snapshot%20Menu.jpg?raw=true)
 2. ![Snapshot Countdown](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Snapshot%20Countdown.jpg?raw=true)
@@ -141,8 +159,10 @@ When the ink level is depleted, you will no longer be able to annotate. At this 
 ![Settings Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Ship%20Settings%20Menu.jpg?raw=true)
 
 ### Skybox Settings
+Change the background here.
 
 ### Lighting Settings
+View and change lighting options. Intensity increases the amount of light and the axis sliders change the location of the source of the light. 
 
 ![Lighting Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Lighting%20Settings.jpg?raw=true)
 
