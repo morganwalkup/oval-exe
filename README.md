@@ -1,5 +1,5 @@
 ****************************************************
-# Portals to the Past: OU Libraries & Arc/k 
+# Portals to the Past: OU Libraries & The Arc/k Project
 Join us, in virtual reality, for a guided tour of the Syrian architectural ruins at Palmyra. During this live OVAL event, Professor Amr Al Azm, PhD (Associate Professor at Shawnee State University) will remotely guide a "walk-through" of the Syrian ruins at Palmyra and contextualize the history of the Arch from its construction to present day, offer insight as to why ISIS chose to destroy the site, and discuss and the importance of the Arch and Palmyra as a Syrian cultural heritage icon that can help restore the fabric of a devastated country and people.
 
 This content was generated - via cutting-edge photogrammetric methods - and generously shared by The Arc/k Project. The mission of of the Arc/k project is well summerized on [their website](http://arck-project.org/): "“The Arc/k Project digitally archives that which is too valuable, too important, and too unique to be lost or forgotten. As great as the palaces of Versailles or as humble as a discarded arrowhead, our cultural heritage defines who and what we are – and we can all play a vitally important role in preserving it.”
