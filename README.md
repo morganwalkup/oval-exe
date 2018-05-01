@@ -1,5 +1,5 @@
 # OVAL
-The Oklahoma Virtual Academic Laboratory (OVAL) is a VR-Classroom application by University of Oklahoma Libraries encouraging collaboration between academics, professors, and students. Up to twenty users can inhabit the same VR space, import any 3D model on the fly, and analyze 3D models with built-in tools.
+Welcome to OVAL! The Oklahoma Virtual Academic Laboratory. The following guide will assist you with any functionality that OVAL currently has. If you find something that isn’t covered or that is confusing in this guide, please leave a revision suggestion in the comments. OVAL is a VR-Classroom application by University of Oklahoma Libraries encouraging collaboration between academics, professors, and students. Up to twenty users can inhabit the same VR space, import any 3D model on the fly, and analyze 3D models with built-in tools.
 
 ### Hardware Dependencies
 OVAL requires the use of an Oculus Rift CV1. A Leap Motion Hand Tracker with a 3Dconnexion SpaceNavigator or Oculus Touch Controllers are required to control the software.
@@ -36,13 +36,20 @@ OVAL requires the use of an Oculus Rift CV1. A Leap Motion Hand Tracker with a 3
 # OVAL Quickstart Guide
 For a video introduction to OVAL, check out [this tutorial](https://www.youtube.com/watch?v=K0S71ocsaM0)
 
-# Using OVAL
-Welcome to OVAL! The following guide will assist you with any functionality that OVAL currently has. If you find something that isn’t covered or that is confusing in this guide, please leave a revision suggestion in the comments. 
-
 ## Compatible File Types
 OVAL can be used to view .obj, .stl, .dae, and .fbx files.
 
-## LEAP Motion Controls
+# Control Options
+
+## Head Movement
+
+## Leap Motion and 3DConnexion Compact SpaceMouse Controls
+
+### Leap Motion Setup
+[Leap Motion Setup Page](https://www.leapmotion.com/setup/)
+
+### 3DConnexion Setup
+[3DConnexion Compact Setup Page](https://www.3dconnexion.com/service/drivers.html?source=box)
 
 ### Maneuvering through OVAL menus
 Using OVAL may feel unnatural for the first few minutes, but the hand gestures quickly become intuitive. This section of the guide will cover all gestures needed to utilize OVAL’s many functions. 
@@ -72,10 +79,7 @@ Remember to Alligator Click!
 ### Maneuvering through OVAL menus
 Use the joysticks on the Oculus Touch controllers to navigate through the menus. Use the (?) button to select.
 
-### Look for the circle
-This green/blue circle is your cursor. Think of it as an extension of your hand. If you want to click on a button, make sure that the circle appears on the button you are attempting to click. If you aren’t seeing the circle, lower your hands off screen and bring them back up. They will return with different color accents. This will indicate that your virtual hands have been refreshed. See if the circle is appearing now.
-
-![Cursor Circle](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/8556F56A-CBE1-4764-B679-8314E668280C.png?raw=true)
+# Using OVAL
 
 ## Loading Models
 To load a model into OVAL, click on start from the main screen. After OVAL loads, there will be a menu on the left. Click “Model” then “Import.” This will bring up an explorer window with the folder that is defined in the “Settings” before the OVAL session was launched. To select a model, double-click or click once and select “Okay.”
@@ -107,8 +111,6 @@ There is a Close Up Function in the Model Menu. This function brings a small ver
 
 ### Tour Function
 The "Tour" function will take your ship on a preset movement around the object. 
-
-![Tour Function](
 
 ### Regroup Function
 
@@ -143,26 +145,6 @@ When the ink level is depleted, you will no longer be able to annotate. At this 
 ### Lighting Settings
 
 ![Lighting Menu](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/Lighting%20Settings.jpg?raw=true)
-
-### Head Movement
-
-### CADMouse Movement
-External link to CADMouse description
-
-# 3DConnexion Setup
-Include external link to their guide, as well as a brief summary of the setup and use. 
-
-## Annotating in OVAL
-
-![Annotation tool menu](https://github.com/WalkupAndAway/OVAL-Application/Readme_images/ “Annotation tool menu”)
-
-### Handheld
-
-### Ink level
-
-## Screenshots
-
-![Screenshot tool](https://github.com/WalkupAndAway/OVAL-Application/Readme_images/ “Screenshot tool”)
 
 ## Video Capture
 
