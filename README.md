@@ -4,6 +4,7 @@ Join us, in virtual reality, for a guided tour of the Syrian architectural ruins
 
 This content was generated - via cutting-edge photogrammetric methods - and generously shared by The Arc/k Project. The mission of of the Arc/k project is well summerized on [their website](http://arck-project.org/): "“The Arc/k Project digitally archives that which is too valuable, too important, and too unique to be lost or forgotten. As great as the palaces of Versailles or as humble as a discarded arrowhead, our cultural heritage defines who and what we are – and we can all play a vitally important role in preserving it.”
 # Tuesday, May 8th, at 1pm CST
+![Palmyra ScreenCap](https://user-images.githubusercontent.com/7727928/39523859-a9a19dd0-4ddc-11e8-8014-489574b9d1b0.jpg)
 ***************************************************
 # OVAL
 Welcome to OVAL! The Oklahoma Virtual Academic Laboratory. The following guide will assist you with any functionality that OVAL currently has. If you find something that isn’t covered or that is confusing in this guide, please leave a revision suggestion in the comments. OVAL is a VR-Classroom application by University of Oklahoma Libraries encouraging collaboration between academics, professors, and students. Up to twenty users can inhabit the same VR space, import any 3D model on the fly, and analyze 3D models with built-in tools.
