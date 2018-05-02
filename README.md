@@ -19,23 +19,12 @@ OVAL requires the use of an Oculus Rift CV1. A Leap Motion Hand Tracker with a 3
 
 # OVAL Setup
 
-## Version Selection
-There are two versions of OVAL available. The difference between the two is in the peripherals used to control each version. Download the [master branch](https://github.com/WalkupAndAway/OVAL-Application/archive/master.zip) if you are using Leap Motion controls. Download the [steam vr branch](https://github.com/WalkupAndAway/OVAL-Application/archive/steam-vr.zip) if you are using Oculus Touch Controllers.
-
 ## Download
-Select the download based on your control preference:
-* [Leap Motion Controls](https://github.com/WalkupAndAway/OVAL-Application/archive/master.zip)
-* [Oculus Touch Controllers](https://github.com/WalkupAndAway/OVAL-Application/archive/steam-vr.zip)
+* [OVAL with Leap Motion Controls](https://github.com/WalkupAndAway/OVAL-Application/archive/master.zip)
 
 ## Install
 1. Extract the files
 1. Run Oval.exe
-
-## SteamVR Install
-1. Install [Steam](https://store.steampowered.com/about/)
-1. Search for and Install SteamVR
-1. Follow these [Oculus Rift setup instructions](https://support.steampowered.com/kb_article.php?ref=3180-UPHK-0900)
-1. Complete SteamVR Room Setup (If you don't this, you will most likely show up and an incorrect height in OVAL).
 
 ## First-Time Configuration
 * Click on the settings menu
@@ -60,9 +49,6 @@ For a video introduction to OVAL, check out [this tutorial](https://www.youtube.
 
 ## Compatible File Types
 OVAL can be used to view .obj, .stl, .dae, and .fbx files.
-
-# Control Options
-Depending on which branch was downloaded, you will either use your hands or Oculus Touch Controllers to control OVAL.
 
 ## Head Movement
 The movement of the field of view is tied to the movement of your head. If you want to look at something, just turn your head.
@@ -97,11 +83,6 @@ Then closing your hand with all four fingers remaining parallel and your index a
 ![Clicking Hand Example - Closed](https://github.com/WalkupAndAway/OVAL-Application/blob/master/Readme_images/handclosed.jpg?raw=true)
 
 Remember to Alligator Click!
-
-## Oculus Touch Controls
-
-### Maneuvering through OVAL menus
-Two lasers will come from your controllers and shoot out in front of you. Use these as cursors. The triggers on the front of the controllers will serve as your click.
 
 # Using OVAL
 
