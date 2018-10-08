@@ -1,12 +1,24 @@
+# The Oklahoma Virtual Academic Laboratory (OVAL)
+
+The Oklahoma Virtual Academic Laboratory (OVAL) is a prototype VR-Classroom application designed to encourage remote collaboration between acdaemics. Up to twenty users can inhabit the same VR space, import 3D content, and analyze 3those models with built-in tools.
+
+Please contact Matt Cook (mncook@ou.edu) with any questions, concerns, or recommendations. Enjoy OVAL!
+# OVAL Publications
+- [Multi-Campus VR Session Tours Remote Cave Art](https://campustechnology.com/articles/2017/10/09/multi-campus-vr-session-tours-remote-cave-art.aspx)
+- [Library Journal - University of Oklahoma Expands Networked Virtual Reality Lab](http://lj.libraryjournal.com/2016/08/academic-libraries/university-of-oklahoma-expands-networked-virtual-reality-lab/)
+- [Library Journal - Virtual Reality and How to Build an Interdisciplinary Hub](http://lj.libraryjournal.com/2017/09/academic-libraries/carl-grant-virtual-reality-build-interdisciplinary-hub/#_)
+- [The Design & Development of an Immersive Learning System for Spatial Analysis and Visual Cognition](http://static1.squarespace.com/static/532b70b6e4b0dca092974dbe/t/5755e2df20c647f04c95598a/1465246433366/pobercook_text+(1).pdf)
+- [Virtual Serendipity: Preserving Embodied Browsing Activity in the 21st Century Research Library](http://www.sciencedirect.com/science/article/pii/S0099133317301520)
+- [A Hub for Innovation and Learning](https://campustechnology.com/Articles/2018/01/31/A-Hub-for-Innovation-and-Learning.aspx?Page=1)
 ****************************************************
-# Portals to the Past: OU Libraries & The Arc/k Project
+# Portals to the Past: OU Libraries & The Arc/k Project (Archived)
 Join us, in virtual reality, for a guided tour of the Syrian architectural ruins at Palmyra. During this live OVAL event, Professor Amr Al Azm, PhD (Associate Professor at Shawnee State University) will remotely guide a "walk-through" of the Syrian ruins at Palmyra and contextualize the history of the Arch from its construction to present day, offer insight as to why ISIS chose to destroy the site, and discuss and the importance of the Arch and Palmyra as a Syrian cultural heritage icon that can help restore the fabric of a devastated country and people.
 
 This content was generated - via cutting-edge photogrammetric methods - and generously shared by The Arc/k Project. The mission of of the Arc/k project is well summerized on [their website](http://arck-project.org/): "“The Arc/k Project digitally archives that which is too valuable, too important, and too unique to be lost or forgotten. As great as the palaces of Versailles or as humble as a discarded arrowhead, our cultural heritage defines who and what we are – and we can all play a vitally important role in preserving it.”
 # Tuesday, May 8th, at 1pm CST
 ![Palmyra ScreenCap](https://user-images.githubusercontent.com/7727928/39523859-a9a19dd0-4ddc-11e8-8014-489574b9d1b0.jpg)
 ***************************************************
-# OVAL
+# OVAL (LeapMotion + 3D Mouse Controls Only)
 Welcome to OVAL! The Oklahoma Virtual Academic Laboratory. The following guide will assist you with any functionality that OVAL currently has. If you find something that isn’t covered or that is confusing in this guide, please leave a revision suggestion in the comments. OVAL is a VR-Classroom application by University of Oklahoma Libraries encouraging collaboration between academics, professors, and students. Up to twenty users can inhabit the same VR space, import any 3D model on the fly, and analyze 3D models with built-in tools.
 
 ### Hardware Dependencies
@@ -174,12 +186,4 @@ Light functions (X, Y, Z axis control of light source and intensity)
 
 ### Voice Chat
 When you enter into a room with another user, voice chat is automatically enabled. If you aren’t hearing the other person, check your sound source in windows. Make sure the sound is being pushed to the Rift Headphones and that it is turned up. 
-
-# OVAL Publications
-- [Multi-Campus VR Session Tours Remote Cave Art](https://campustechnology.com/articles/2017/10/09/multi-campus-vr-session-tours-remote-cave-art.aspx)
-- [Library Journal - University of Oklahoma Expands Networked Virtual Reality Lab](http://lj.libraryjournal.com/2016/08/academic-libraries/university-of-oklahoma-expands-networked-virtual-reality-lab/)
-- [Library Journal - Virtual Reality and How to Build an Interdisciplinary Hub](http://lj.libraryjournal.com/2017/09/academic-libraries/carl-grant-virtual-reality-build-interdisciplinary-hub/#_)
-- [The Design & Development of an Immersive Learning System for Spatial Analysis and Visual Cognition](http://static1.squarespace.com/static/532b70b6e4b0dca092974dbe/t/5755e2df20c647f04c95598a/1465246433366/pobercook_text+(1).pdf)
-- [Virtual Serendipity: Preserving Embodied Browsing Activity in the 21st Century Research Library](http://www.sciencedirect.com/science/article/pii/S0099133317301520)
-- [A Hub for Innovation and Learning](https://campustechnology.com/Articles/2018/01/31/A-Hub-for-Innovation-and-Learning.aspx?Page=1)
 
